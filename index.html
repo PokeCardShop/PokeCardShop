@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeCard Shop 974</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="background-icons">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" style="top: 10%; left: 5%;">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" style="top: 30%; left: 80%;">
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" style="top: 60%; left: 20%;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3977/3977885.png" style="top: 75%; left: 70%;">
+    </div>
+    <div class="cart">Panier (0)</div>
+    <div class="cart-popup">
+        <h4>Contenu du panier</h4>
+        <div class="cart-popup-content">
+            <p>Aucun produit pour le moment.</p>
+        </div>
+    </div>
+    <header>
+        <h1>PokeCard Shop 974</h1>
+        <p>Votre boutique Pokémon à La Réunion</p>
+    </header>
+    <main>
+        <section class="search-sort">
+            <input type="text" placeholder="Rechercher un produit..." id="searchBar">
+            <select id="categorySelect">
+                <option value="">Toutes les catégories</option>
+                <option value="Sleeves">Sleeves</option>
+                <option value="Deck Boxes">Deck Boxes</option>
+                <option value="ETB">ETB</option>
+                <option value="Booster">Booster</option>
+                <option value="Starter Deck">Starter Deck</option>
+                <option value="Précommandes">Précommandes</option>
+                <option value="Tapis de jeu">Tapis de jeu</option>
+            </select>
+        </section>
+        <section class="gallery">
+            <div class="product" data-name="Booster Salamèche">
+                <img src="images/001.png" alt="Booster Salamèche">
+                <button class="add-to-cart" data-name="Booster Salamèche">Ajouter au panier</button>
+            </div>
+            <div class="product" data-name="Sleeves Pikachu">
+                <img src="images/004.png" alt="Sleeves Pikachu">
+                <button class="add-to-cart" data-name="Sleeves Pikachu">Ajouter au panier</button>
+            </div>
+            <div class="product" data-name="Deck Boxes Tortank">
+                <img src="images/007.png" alt="Deck Boxes Tortank">
+                <button class="add-to-cart" data-name="Deck Boxes Tortank">Ajouter au panier</button>
+            </div>
+        </section>
+
+        <section class="login-form">
+            <h2>Inscription</h2>
+            <input type="text" placeholder="Nom d'utilisateur" />
+            <input type="email" placeholder="Adresse e-mail" />
+            <input type="password" placeholder="Mot de passe" />
+            <button>S'inscrire</button>
+        </section>
+    </main>
+    <footer>
+        <p>Contact : <a href="mailto:pokecardshop@gmail.com">pokecardshop@gmail.com</a></p>
+        <p>Téléphone : <a href="tel:+262693828534">0693 82 85 34</a></p>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61577301435205&locale=fr_FR" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook">
+            </a>
+        </div>
+        <p>&copy; 2025 PokeCard Shop 974 - Tous droits réservés</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
